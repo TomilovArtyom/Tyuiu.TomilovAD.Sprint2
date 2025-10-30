@@ -8,11 +8,13 @@ namespace Tyuiu.TomilovAD.Sprint2.Task5.V14.Lib
         {
             string res;
 
+            int z;
+
             res = "";
 
-            d = (k + d - 1) - ((k + d - 1)/7)*7;
+            z = (k + d - 1) - ((k + d - 1)/7)*7;
 
-                switch (d)
+                switch (z)
                 {
                     case 0:
                         res = "Воскресение";
