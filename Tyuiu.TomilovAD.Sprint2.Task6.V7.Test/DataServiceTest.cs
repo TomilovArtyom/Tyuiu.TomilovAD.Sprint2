@@ -3,7 +3,7 @@
 namespace Tyuiu.TomilovAD.Sprint2.Task6.V7.Test
 {
     [TestClass]
-    public sealed class Test1
+    public sealed class DataServiceTest
     {
         [TestMethod]
         public void TestMethod1()
@@ -11,7 +11,7 @@ namespace Tyuiu.TomilovAD.Sprint2.Task6.V7.Test
             DataService ds = new DataService();
             int Year = 1990;
             int M = 0;
-            string wait = "Январь";
+            string wait = "январь";
             string res = ds.FindMonthName(Year, M);
             Assert.AreEqual(res, wait);
         }
