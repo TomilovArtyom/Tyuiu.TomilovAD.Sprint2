@@ -10,7 +10,7 @@ namespace Tyuiu.TomilovAD.Sprint2.Task5.V14.Test
         {
             DataService ds = new DataService();
             int k = 1;
-            int d = 0;
+            int d = 1;
             string res = ds.FindDayName(k, d);
             string wait = "Понедельник";
             Assert.AreEqual(res, wait);

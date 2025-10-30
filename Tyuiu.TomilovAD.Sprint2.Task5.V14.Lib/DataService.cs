@@ -10,8 +10,6 @@ namespace Tyuiu.TomilovAD.Sprint2.Task5.V14.Lib
 
             int z;
 
-            res = "";
-
             z = (k + d - 1) - ((k + d - 1)/7)*7;
 
                 switch (z)
@@ -43,8 +41,11 @@ namespace Tyuiu.TomilovAD.Sprint2.Task5.V14.Lib
                     case 6:
                         res = "Суббота";
                         break;
+                    default: throw new NotImplementedException();
                 }
                 return res;
+
+                
         }
     }
 }
