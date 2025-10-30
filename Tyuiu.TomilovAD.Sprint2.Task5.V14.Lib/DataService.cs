@@ -10,7 +10,7 @@ namespace Tyuiu.TomilovAD.Sprint2.Task5.V14.Lib
 
             res = "";
 
-            d = k - k / 7;
+            d = k - (k / 7)*7;
 
                 switch (d)
                 {
