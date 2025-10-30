@@ -1,6 +1,6 @@
-﻿using Tyuiu.TomilovAD.Sprint2.Task3.V3.Lib;
+﻿using Tyuiu.TomilovAD.Sprint2.Task4.V5.Lib;
 
-namespace Tyuiu.TomilovAD.Sprint2.Task3.V3
+namespace Tyuiu.TomilovAD.Sprint2.Task4.V5
 {
     class Program
     {
@@ -11,8 +11,8 @@ namespace Tyuiu.TomilovAD.Sprint2.Task3.V3
             Console.Title = "Спринт #2 | Выполнил Томилов А. Д. | ИСТНб-25-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #2                                                               *");
-            Console.WriteLine("* Задание #3                                                              *");
-            Console.WriteLine("* Вариант #3                                                              *");
+            Console.WriteLine("* Задание #4                                                              *");
+            Console.WriteLine("* Вариант #5                                                              *");
             Console.WriteLine("* Выполнил: Томилов А. Д. | ИСТНб-25-1                                    *");
             Console.WriteLine("***************************************************************************");
 
@@ -21,11 +21,16 @@ namespace Tyuiu.TomilovAD.Sprint2.Task3.V3
             Console.WriteLine("Введите значение X:");
             x = Convert.ToDouble(Console.ReadLine());
 
+            double y;
+
+            Console.WriteLine("Введите значение Y:");
+            y = Convert.ToDouble(Console.ReadLine());
+
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(ds.Calculate(x));
+            Console.WriteLine(ds.Calculate(x, y));
             Console.ReadLine();
         }
     }

@@ -8,7 +8,7 @@ namespace Tyuiu.TomilovAD.Sprint1.Task3.V14
         {
             DataService ds = new DataService();
 
-            Console.Title = "Спринт #1 | Выполнил Томилов А. Д. | ИСТНб-25-1";
+            Console.Title = "Спринт #2 | Выполнил Томилов А. Д. | ИСТНб-25-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #                                                                *");
             Console.WriteLine("* Задание #                                                               *");
