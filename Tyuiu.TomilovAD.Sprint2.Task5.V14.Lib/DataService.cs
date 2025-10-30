@@ -1,0 +1,48 @@
+﻿using tyuiu.cources.programming.interfaces.Sprint2;
+
+namespace Tyuiu.TomilovAD.Sprint2.Task5.V14.Lib
+{
+    public class DataService : ISprint2Task5V14
+    {
+        public string FindDayName(int k, int d)
+        {
+            string res;
+
+            res = "";
+
+            d = k - k / 7;
+
+                switch (d)
+                {
+                    case 0:
+                        res = "Воскресение";
+                        break;
+
+                    case 1:
+                        res = "Понедельник";
+                        break;
+
+                    case 2:
+                        res = "Воскресение";
+                        break;
+
+                    case 3:
+                        res = "Среда";
+                        break;
+
+                    case 4:
+                        res = "Четверг";
+                        break;
+
+                    case 5:
+                        res = "Пятница";
+                        break;
+
+                    case 6:
+                        res = "Суббота";
+                        break;
+                }
+                return res;
+        }
+    }
+}
