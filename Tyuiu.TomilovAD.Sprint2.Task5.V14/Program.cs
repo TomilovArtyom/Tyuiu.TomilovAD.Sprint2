@@ -17,10 +17,13 @@ namespace Tyuiu.TomilovAD.Sprint2.Task5.V14
             Console.WriteLine("***************************************************************************");
 
             int k;
-            int d = 0;
+            int d;
 
             Console.WriteLine("Введите значение K:");
             k = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Введите значение D:");
+            d = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
